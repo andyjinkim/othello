@@ -1,0 +1,111 @@
+#title {
+  color: white;
+  text-shadow:  -5px 0 black, 0 5px black, 5px 0 black, 0 -5px black;
+  font-family: 'Pacifico', cursive;
+  font-size: 100px;
+  letter-spacing: 2px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.textBlack {
+  color: black;
+  text-shadow:  -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.textWhite {
+  color: white;
+  text-shadow:  -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.textRed {
+  color: red;
+}
+
+html {
+  height: 0;
+}
+
+#newPlayers {
+  margin-top: 10px;
+  width: 370px;
+}
+
+#playerTurn {
+  height: 20px;
+  font-size: 38px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 37px;
+}
+
+.scoreboardOne {
+  width: 100%;
+  height: 35px;
+  margin: 0 auto;
+  font-size: 30px;
+  color: white;
+}
+
+.scoreboardTwo {
+  width: 100%;
+  height: 35px;
+  margin: 0 auto;
+  font-size: 30px;
+  color: white;
+}
+
+#gameBoard {
+  margin: 0 auto;
+  width: 384px;
+  height: 382px;
+  background: -webkit-radial-gradient(white 1%, #007A00 80%); /* Safari 5.1-6.0 */
+  background: -o-radial-gradient(white 1%, #007A00 80%); /* For Opera 11.6-12.0 */
+  background: -moz-radial-gradient(white 1%, #007A00 80%); /* For Firefox 3.6-15 */
+  background: radial-gradient(white 1%, #007A00 80%); /* Standard syntax */
+}
+
+#clearBoard {
+  margin-top: 10px;
+  width: 370px;
+  height: 30px;
+}
+
+body {
+  background-image: url("http://www.hdwalley.com/wp-content/uploads/2015/10/cool_wallpaper_cool_2001_hd_background-1024x576.jpg");
+  background-size: 100% 750px;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+/*#page {
+  background-image: url("http://www.hdwalley.com/wp-content/uploads/2015/10/cool_wallpaper_cool_2001_hd_background-1024x576.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}*/
+
+#container {
+  text-align: center;
+  margin-top: -20px;
+}
+
+.box {
+ border: black 2px solid;
+ width: 50px;
+ height: 50px;
+ display: inline-block;
+ vertical-align: top;
+ margin-top: -2px;
+ margin-right: -6px;
+}
+
+.black {
+ background-image: url("http://alloutput.com/wp-content/uploads/2013/11/black-circle-mask-to-fill-compass-outline.png");
+ background-size: 100%;
+
+}
+
+.white {
+ background-image: url("http://www.iconsdb.com/icons/preview/black/circle-outline-xxl.png");
+ background-size: 100%;
